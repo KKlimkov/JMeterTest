@@ -29,6 +29,7 @@
         <graph.width>1024</graph.width>
         <graph.height>768</graph.height>
     </properties>
+
     <build><plugins>
         <plugin>
             <groupId>com.lazerycode.jmeter</groupId>
@@ -73,24 +74,29 @@
             </executions>
             <configuration>
                 <propertiesUser>
-<!--                    <base.url>${base.url}</base.url>
-                    <jobs.url>${jobs.url}</jobs.url>
-                    <app.protocol>${protocol}</app.protocol>
-                    <app.port>${port}</app.port>
-                    <connect.timeout>${connect.timeout}</connect.timeout>
-                    <response.timeout>${response.timeout}</response.timeout>
-                    <thread.name>${thread.name}</thread.name>
-                    <thread.number>${thread.number}</thread.number>
-                    <rampup>${rampup}</rampup>
-                    <startup.delay>${startup.delay}</startup.delay>
-                    <test.duration>${test.duration}</test.duration>
-                    <target.rpm>${target.rpm}</target.rpm>-->
+                    <!--                    <base.url>${base.url}</base.url>
+                                        <jobs.url>${jobs.url}</jobs.url>
+                                        <app.protocol>${protocol}</app.protocol>
+                                        <app.port>${port}</app.port>
+                                        <connect.timeout>${connect.timeout}</connect.timeout>
+                                        <response.timeout>${response.timeout}</response.timeout>
+                                        <thread.name>${thread.name}</thread.name>
+                                        <thread.number>${thread.number}</thread.number>
+                                        <rampup>${rampup}</rampup>
+                                        <startup.delay>${startup.delay}</startup.delay>
+                                        <test.duration>${test.duration}</test.duration>
+                                        <target.rpm>${target.rpm}</target.rpm>-->
                 </propertiesUser>
                 <resultsFileFormat>xml</resultsFileFormat>
                 <scanResultsForFailedRequests>true</scanResultsForFailedRequests>
-                <ignoreResultFailures>false</ignoreResultFailures>
+                <scanResultsForSuccessfulRequests>true</scanResultsForSuccessfulRequests>
+                <ignoreResultFailures>true</ignoreResultFailures>
+                <jmeterExtensions>
+                    <artifact>kg.apc:jmeter-plugins-graphs-basic:2.0</artifact>
+                </jmeterExtensions>
             </configuration>
         </plugin>
+
         <plugin>
             <groupId>de.codecentric</groupId>
             <artifactId>jmeter-graph-maven-plugin</artifactId>
@@ -167,6 +173,7 @@
                 </graphs>
             </configuration>
         </plugin>
+
     </plugins>
     </build>
 </project>
