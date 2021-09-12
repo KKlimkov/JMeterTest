@@ -103,9 +103,9 @@
           <stringProp name="script">var test1;
 var test2;
 var test3;
-vars.put(&quot;test1&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\IDE\Data2.csv,0)}&quot;);
-vars.put(&quot;test2&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\IDE\Data2.csv,1)}&quot;);
-vars.put(&quot;test3&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\IDE\Data2.csv,2)}&quot;);</stringProp>
+vars.put(&quot;test1&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\IDE\Data.csv,0)}&quot;);
+vars.put(&quot;test2&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\IDE\Data.csv,1)}&quot;);
+vars.put(&quot;test3&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\IDE\Data.csv,2)}&quot;);</stringProp>
         </BeanShellPreProcessor>
         <hashTree/>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Test" enabled="true">
@@ -995,7 +995,7 @@ vars.put(&quot;test3&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\ID
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;subscriptionId&quot;:${JsubscriptionId},&quot;items&quot;:[{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_35876.dPFault&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:4,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;Kontrolj_perepada&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:5,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_35876.AccedentNumber&quot;,&quot;type&quot;:&quot;LREAL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:6,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_35876.RunButton&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:7,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_35876.AutoControl&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:8,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;Sostoyaniya_Avariya&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:9,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;dP&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:10,&quot;usesCounts&quot;:1}],&quot;sessionId&quot;:${JsessionId}}</stringProp>
+                  <stringProp name="Argument.value">{&quot;subscriptionId&quot;:${JsubscriptionId},&quot;items&quot;:[{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_36216.dPFault&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:4,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;Kontrolj_perepada&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:5,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_36216.AccedentNumber&quot;,&quot;type&quot;:&quot;LREAL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:6,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_36216.RunButton&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:7,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_36216.AutoControl&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:8,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;Sostoyaniya_Avariya&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:9,&quot;usesCounts&quot;:1},{&quot;taskId&quot;:0,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;dP&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;clientHandle&quot;:10,&quot;usesCounts&quot;:1}],&quot;sessionId&quot;:${JsessionId}}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -1875,7 +1875,7 @@ vars.put(&quot;test3&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\ID
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;recs&quot;:[{&quot;taskId&quot;:0,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_35876.RunButton&quot;,&quot;operation&quot;:&quot;move&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;usesCounts&quot;:1,&quot;value&quot;:true}],&quot;sessionId&quot;:${JsessionId}}</stringProp>
+                  <stringProp name="Argument.value">{&quot;recs&quot;:[{&quot;taskId&quot;:0,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_36216.RunButton&quot;,&quot;operation&quot;:&quot;move&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;usesCounts&quot;:1,&quot;value&quot;:true}],&quot;sessionId&quot;:${JsessionId}}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -2535,7 +2535,7 @@ vars.put(&quot;test3&quot;,&quot;${__CSVRead(C:\Users\kiril\Desktop\Autotests\ID
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;recs&quot;:[{&quot;taskId&quot;:0,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_35876.RunButton&quot;,&quot;operation&quot;:&quot;move&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;usesCounts&quot;:1,&quot;value&quot;:false}],&quot;sessionId&quot;:${JsessionId}}</stringProp>
+                  <stringProp name="Argument.value">{&quot;recs&quot;:[{&quot;taskId&quot;:0,&quot;dataSourceId&quot;:&quot;MPLCDataSource&quot;,&quot;itemId&quot;:${test2},&quot;path&quot;:&quot;PumpControl_ID_36216.RunButton&quot;,&quot;operation&quot;:&quot;move&quot;,&quot;type&quot;:&quot;BOOL&quot;,&quot;usesCounts&quot;:1,&quot;value&quot;:false}],&quot;sessionId&quot;:${JsessionId}}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
